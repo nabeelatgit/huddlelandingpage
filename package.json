@@ -1,0 +1,24 @@
+{
+    "name": "huddle",
+    "version": "1.0.0",
+    "description": "Landing page for huddle from front end mentor",
+    "main": "gupfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://www.github.com/nabeelatgit"
+    },
+    "keywords": [
+        "frontendmentor",
+        "huddle"
+    ],
+    "author": "Mohamed Nabeel Moidunni",
+    "license": "ISC",
+    "dependencies": {
+        "gulp": "^4.0.2",
+        "gulp-sass": "^4.0.2",
+        "node-sass": "^4.13.1"
+    }
+}

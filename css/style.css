@@ -1,0 +1,90 @@
+/* Variables */
+.huddle_btn {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 12px 50px;
+  border: none;
+  text-decoration: none;
+  font-size: 16px; }
+  .huddle_btn.primary {
+    background-color: #ffffff;
+    color: #000000; }
+
+body {
+  margin: 0 auto; }
+  body.huddle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #674baf;
+    color: #ffffff;
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 50px 0 50px;
+    height: calc(100vh - 50px); }
+
+.huddle__logo a {
+  display: block; }
+  .huddle__logo a img {
+    width: 230px; }
+
+.huddle__section {
+  margin-top: 50px;
+  display: flex; }
+  .huddle__section .huddle__mockups {
+    flex: 1; }
+    .huddle__section .huddle__mockups img {
+      width: 100%; }
+  .huddle__section .huddle__register {
+    flex: 1;
+    margin-left: 40px; }
+    .huddle__section .huddle__register h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 52px;
+      margin-bottom: 8px;
+      line-height: 1; }
+    .huddle__section .huddle__register p {
+      font-size: 20px; }
+
+.huddle_footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end; }
+  .huddle_footer a {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    text-decoration: none; }
+    .huddle_footer a i {
+      color: #ffffff;
+      font-size: 20px; }
+
+@media screen and (max-width: 900px) {
+  .huddle__section {
+    flex-direction: column; } }
+
+@media screen and (max-width: 480px) {
+  body.huddle {
+    background-image: url("../images/bg-mobile.svg");
+    background-size: contain; }
+  .huddle__logo a {
+    display: block; }
+    .huddle__logo a img {
+      width: 160px; }
+  .huddle__section .huddle__register {
+    margin-left: 0;
+    text-align: center; }
+    .huddle__section .huddle__register h1 {
+      font-size: 28px; }
+    .huddle__section .huddle__register p {
+      font-size: 16px; }
+  .huddle_btn {
+    font-size: 16px;
+    padding: 14px 70px; }
+  .huddle_footer {
+    justify-content: center; } }

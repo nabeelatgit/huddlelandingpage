@@ -1,0 +1,41 @@
+@media screen and (max-width: 900px) {
+    .huddle__section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        &.huddle {
+            background-image: url("../images/bg-mobile.svg");
+            background-size: contain;
+        }
+    }
+    .huddle__logo {
+        a {
+            display: block;
+            img {
+                width: 160px;
+            }
+        }
+    }
+    .huddle__section {
+        .huddle__register {
+            margin-left: 0;
+            text-align: center;
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+    .huddle_btn {
+        font-size: 16px;
+        padding: 14px 70px;
+    }
+    .huddle_footer {
+        justify-content: center;
+    }
+}
